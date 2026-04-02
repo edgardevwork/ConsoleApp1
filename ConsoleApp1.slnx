@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DickSnake.BusinessLogic/DickSnake.BusinessLogic.csproj" Id="fce69b81-ec6c-47e5-9dbd-5fe6fc56b37f" />
+  <Project Path="DickSnake.Models/DickSnake.Models.csproj" Id="ee1299b7-77e6-4503-9cd0-6c25efc42b31" />
+  <Project Path="DickSnake.Program/DickSnake.Program.csproj" />
+</Solution>

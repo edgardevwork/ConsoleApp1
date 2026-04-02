@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\anton\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|c:\\anton\\consoleapp1\\dicksnake.program\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|solutionrelative:dicksnake.program\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|c:\\anton\\consoleapp1\\dicksnake.program\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|solutionrelative:dicksnake.program\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|c:\\anton\\consoleapp1\\dicksnake.program\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|solutionrelative:dicksnake.program\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|c:\\anton\\consoleapp1\\dicksnake.program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|solutionrelative:dicksnake.program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|c:\\anton\\consoleapp1\\dicksnake.models\\foodtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|solutionrelative:dicksnake.models\\foodtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|c:\\anton\\consoleapp1\\dicksnake.models\\foodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|solutionrelative:dicksnake.models\\foodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Field.cs",
+              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Field.cs",
+              "RelativeDocumentMoniker": "DickSnake.Program\\Field.cs",
+              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Field.cs",
+              "RelativeToolTip": "DickSnake.Program\\Field.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T15:06:55.553Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Snake.cs",
+              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Snake.cs",
+              "RelativeDocumentMoniker": "DickSnake.Program\\Snake.cs",
+              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Snake.cs",
+              "RelativeToolTip": "DickSnake.Program\\Snake.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T16:16:25.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FoodType.cs",
+              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\FoodType.cs",
+              "RelativeDocumentMoniker": "DickSnake.Models\\FoodType.cs",
+              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\FoodType.cs",
+              "RelativeToolTip": "DickSnake.Models\\FoodType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T16:07:57.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Food.cs",
+              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Food.cs",
+              "RelativeDocumentMoniker": "DickSnake.Program\\Food.cs",
+              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Food.cs",
+              "RelativeToolTip": "DickSnake.Program\\Food.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T15:13:30.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Program.cs",
+              "RelativeDocumentMoniker": "DickSnake.Program\\Program.cs",
+              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Program.cs",
+              "RelativeToolTip": "DickSnake.Program\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T15:07:47.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FoodModel.cs",
+              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\FoodModel.cs",
+              "RelativeDocumentMoniker": "DickSnake.Models\\FoodModel.cs",
+              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\FoodModel.cs",
+              "RelativeToolTip": "DickSnake.Models\\FoodModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T15:06:25.028Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
