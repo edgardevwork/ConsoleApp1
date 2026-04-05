@@ -16,15 +16,24 @@ public class Snake
         tailSnakePos = new List<TailSnakePos>();
         facePosX = 1;
         facePosY = 0;
+        tailSnakePos.Add(new TailSnakePos(facePosX - 1, facePosY));
         Draw(); // Отрисовка змеи
     }
 
-    void Draw()
+    public void Draw()
     {
-        tailSnakePos.Add(new TailSnakePos(facePosX - 1, facePosY));
-        Console.SetCursorPosition(tailSnakePos[0].positionX, tailSnakePos[0].positionY);
-        Console.Write("-");
         Console.SetCursorPosition(facePosX, facePosY);
-        Console.Write("@");
+
+        Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.Write("@"); // Голова
+
+        foreach (var segment in tailSnakePos)
+        {
+            Console.SetCursorPosition(segment.positionX, segment.positionY);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write("#"); // Хвост
+        }
+
+        Console.ForegroundColor = ConsoleColor.White;
     }
 }

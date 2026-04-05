@@ -13,7 +13,6 @@ internal class Program
         SnakeManager snake = new SnakeManager(keyHelper);
         keyHelper.StartListening();
         Food food = new Food();
-        food.start();
         
         while (true) ;
     }

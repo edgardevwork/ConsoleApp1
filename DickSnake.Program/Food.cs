@@ -3,22 +3,15 @@ using System.Timers;
 
 public class Food
 {
-    Random rand;
+    static Random rand;
     int speed = 1000;
+    public static System.Timers.Timer timer;
     public Food()
     {
         rand = new Random();
     }
 
-    public void start()
-    {
-        System.Timers.Timer timer = new System.Timers.Timer();
-        timer.Interval = speed;
-        timer.Elapsed += spawnFood;
-        timer.Start();
-    }
-
-    private void spawnFood(object? sender, ElapsedEventArgs e)
+    public static void spawnFood()
     {
         if (Field.foods.Count + Field.snake.tailSnakePos.Count + 1 == Field.gridWidth * Field.gridHeight)
         {
@@ -74,19 +67,25 @@ public class Food
         {
             case (int)FoodType.Apple:
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("A");
                     break;
                 }
             case (int)FoodType.Banana:
                 {
+
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.Write("B");
                     break;
                 }
             case (int)FoodType.Watermelon:
                 {
+                    Console.ForegroundColor = ConsoleColor.Magenta;
                     Console.Write("W");
                     break;
                 }
         }
+
+        Console.ForegroundColor = ConsoleColor.White;
     }
 }
