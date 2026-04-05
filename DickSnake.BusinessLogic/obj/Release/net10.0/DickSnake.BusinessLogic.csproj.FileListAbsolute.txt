@@ -13,3 +13,4 @@ C:\anton\ConsoleApp1\DickSnake.BusinessLogic\obj\Release\net10.0\DickSnake.Busin
 C:\anton\ConsoleApp1\DickSnake.BusinessLogic\obj\Release\net10.0\refint\DickSnake.BusinessLogic.dll
 C:\anton\ConsoleApp1\DickSnake.BusinessLogic\obj\Release\net10.0\DickSnake.BusinessLogic.pdb
 C:\anton\ConsoleApp1\DickSnake.BusinessLogic\obj\Release\net10.0\ref\DickSnake.BusinessLogic.dll
+C:\anton\ConsoleApp1\DickSnake.BusinessLogic\obj\Release\net10.0\DickSnake.BusinessLogic.sourcelink.json

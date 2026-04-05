@@ -9,3 +9,4 @@ C:\anton\ConsoleApp1\DickSnake.Models\obj\Release\net10.0\DickSnake.Models.dll
 C:\anton\ConsoleApp1\DickSnake.Models\obj\Release\net10.0\refint\DickSnake.Models.dll
 C:\anton\ConsoleApp1\DickSnake.Models\obj\Release\net10.0\DickSnake.Models.pdb
 C:\anton\ConsoleApp1\DickSnake.Models\obj\Release\net10.0\ref\DickSnake.Models.dll
+C:\anton\ConsoleApp1\DickSnake.Models\obj\Release\net10.0\DickSnake.Models.sourcelink.json

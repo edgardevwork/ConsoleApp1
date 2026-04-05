@@ -19,3 +19,4 @@ C:\anton\ConsoleApp1\DickSnake.Program\obj\Release\net10.0\refint\DickSnake.Prog
 C:\anton\ConsoleApp1\DickSnake.Program\obj\Release\net10.0\DickSnake.Program.pdb
 C:\anton\ConsoleApp1\DickSnake.Program\obj\Release\net10.0\DickSnake.Program.genruntimeconfig.cache
 C:\anton\ConsoleApp1\DickSnake.Program\obj\Release\net10.0\ref\DickSnake.Program.dll
+C:\anton\ConsoleApp1\DickSnake.Program\obj\Release\net10.0\DickSnake.Program.sourcelink.json

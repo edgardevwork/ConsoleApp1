@@ -7,14 +7,11 @@ public class Field
 {
     public static int gridWidth = 25;
     public static int gridHeight = 25;
-    Snake snake;
+    public static Snake snake;
     public static List<FoodModel> foods = new List<FoodModel>();
     public Field()
 	{
-        var keyHelper = new KeyHelper();
-        snake = new Snake(keyHelper);
-
-        keyHelper.StartListening();
+        snake = new Snake(gridWidth, gridHeight);
         StringBuilder stringBuilder = new StringBuilder();
 
         for (int row = 0; row < gridHeight; row++)

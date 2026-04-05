@@ -4,12 +4,12 @@ using System.Text;
 
 namespace DickSnake.Models;
 
-public class SnakePos
+public class TailSnakePos
 {
     public int positionX;
     public int positionY;
 
-    public SnakePos(int positionX, int positionY)
+    public TailSnakePos(int positionX, int positionY)
     {
         this.positionX = positionX;
         this.positionY = positionY;

@@ -20,14 +20,55 @@ public class Food
 
     private void spawnFood(object? sender, ElapsedEventArgs e)
     {
-        int posX = rand.Next(Field.gridWidth);
-        int posY = rand.Next(Field.gridHeight);
-        int foodType = rand.Next(0, 3);
-        if (Field.foods.Count > 0)
+        if (Field.foods.Count + Field.snake.tailSnakePos.Count + 1 == Field.gridWidth * Field.gridHeight)
         {
-            setPosXY(posX, posY);
+            return;
         }
+        int posX, posY;
+        bool isPositionValid;
+
+        do
+        {
+            posX = rand.Next(Field.gridWidth);
+            posY = rand.Next(Field.gridHeight);
+
+            isPositionValid = true;
+
+            foreach (var food in Field.foods)
+            {
+                if (food.getX() == posX && food.getY() == posY)
+                {
+                    isPositionValid = false;
+                    break;
+                }
+            }
+
+            if (!isPositionValid)
+            {
+                continue;
+            }
+
+            if (Field.snake.facePosX == posX && Field.snake.facePosY == posY)
+            {
+                isPositionValid = false;
+                continue;
+            }
+            
+            foreach (var tailSegment in Field.snake.tailSnakePos)
+            {
+                if (tailSegment.positionX == posX && tailSegment.positionY == posY)
+                {
+                    isPositionValid = false;
+                    break;
+                }
+            }
+
+        } while (!isPositionValid);
+
+        int foodType = rand.Next(0, 3);
+
         Field.foods.Add(new FoodModel(posX, posY, (FoodType)foodType));
+
         Console.SetCursorPosition(posX, posY);
         switch (foodType)
         {
@@ -46,18 +87,6 @@ public class Food
                     Console.Write("W");
                     break;
                 }
-        }
-    }
-    private void setPosXY(int posX, int posY)
-    {
-        for (int i = 0; i < Field.foods.Count; i++)
-        {
-            if (Field.foods[i].getX() == posX && Field.foods[i].getY() == posY)
-            {
-                posX = rand.Next(Field.gridWidth);
-                posY = rand.Next(Field.gridHeight);
-                setPosXY(posX, posY);
-            }
         }
     }
 }
