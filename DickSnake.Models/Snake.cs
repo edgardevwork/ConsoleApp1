@@ -16,6 +16,11 @@ public class Snake
         tailSnakePos = new List<TailSnakePos>();
         facePosX = 1;
         facePosY = 0;
+        Draw(); // Отрисовка змеи
+    }
+
+    void Draw()
+    {
         tailSnakePos.Add(new TailSnakePos(facePosX - 1, facePosY));
         Console.SetCursorPosition(tailSnakePos[0].positionX, tailSnakePos[0].positionY);
         Console.Write("-");

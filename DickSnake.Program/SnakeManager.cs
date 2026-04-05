@@ -32,25 +32,34 @@ public class SnakeManager
                     break;
             }
         };
+        System.Timers.Timer timer = new System.Timers.Timer();
+        timer.Interval = speed;
+        timer.Elapsed += updateSnake;
+        timer.Start();
 
-        
     }
     public void updateSnake(object? sender, ElapsedEventArgs e)
     {
+        int oldFaceX = Field.snake.facePosX;
+        int oldFaceY = Field.snake.facePosY;
         switch (way)
         {
             case SnakeDirection.Up:
-                Field.snake.facePosY -= 1;
+                Field.snake.facePosY = (Field.snake.facePosY - 1 + Field.gridHeight) % Field.gridHeight;
                 break;
             case SnakeDirection.Down:
-                Field.snake.facePosY += 1;
+                Field.snake.facePosY = (Field.snake.facePosY + 1) % Field.gridHeight;
                 break;
             case SnakeDirection.Left:
-                Field.snake.facePosX -= 1;
+                Field.snake.facePosX = (Field.snake.facePosX - 1 + Field.gridWidth) % Field.gridWidth;
                 break;
             case SnakeDirection.Right:
-                Field.snake.facePosX += 1;
+                Field.snake.facePosX = (Field.snake.facePosX + 1) % Field.gridWidth;
                 break;
         }
+        Console.SetCursorPosition(oldFaceX, oldFaceY);
+        Console.Write("-");
+        Console.SetCursorPosition(Field.snake.facePosX, Field.snake.facePosY);
+        Console.Write("@");
     }
 }
