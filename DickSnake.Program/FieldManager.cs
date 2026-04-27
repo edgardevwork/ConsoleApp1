@@ -23,6 +23,24 @@ public class FieldManager
         {
             for (int col = 0; col < field.gridWidth; col++)
             {
+                if(col != 0)
+                {
+                    if(row == 0 && col != field.gridWidth - 1)
+                    {
+                        stringBuilder.Append("═");
+                    } else if(row == 0 && col == field.gridWidth - 1) {
+                        stringBuilder.Append("╗");
+                    }
+                    continue;
+                }
+                if(col == 0 && row != 0 && row != field.gridHeight-1)
+                {
+                    stringBuilder.Append("║");
+                } else if(col == 0 && row == 0){
+                    stringBuilder.Append("╔");
+                } else if (col == 0 && row < field.gridHeight){
+                    stringBuilder.Append("╚");
+                }
                 stringBuilder.Append(" ");
             }
 

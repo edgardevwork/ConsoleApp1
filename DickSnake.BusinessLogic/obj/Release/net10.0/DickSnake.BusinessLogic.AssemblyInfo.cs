@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DickSnake.BusinessLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0422f30c97028f952b749e7e5595f3f97074550")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6618a6269b043c3477c401be24ed44991d65e1b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("DickSnake.BusinessLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DickSnake.BusinessLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
