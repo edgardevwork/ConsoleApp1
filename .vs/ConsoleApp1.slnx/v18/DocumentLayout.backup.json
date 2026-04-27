@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\anton\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|c:\\anton\\consoleapp1\\dicksnake.models\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|solutionrelative:dicksnake.models\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|c:\\anton\\consoleapp1\\dicksnake.program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|solutionrelative:dicksnake.program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|c:\\anton\\consoleapp1\\dicksnake.program\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|solutionrelative:dicksnake.program\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|c:\\anton\\consoleapp1\\dicksnake.program\\fieldmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|solutionrelative:dicksnake.program\\fieldmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|c:\\anton\\consoleapp1\\dicksnake.program\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|solutionrelative:dicksnake.program\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|c:\\anton\\consoleapp1\\dicksnake.models\\tailsnakepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|solutionrelative:dicksnake.models\\tailsnakepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|c:\\anton\\consoleapp1\\dicksnake.models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|solutionrelative:dicksnake.models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|c:\\anton\\consoleapp1\\dicksnake.program\\snakemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,24 +27,32 @@
       "RelativeMoniker": "D:0:0:{FCE69B81-EC6C-47E5-9DBD-5FE6FC56B37F}|DickSnake.BusinessLogic\\DickSnake.BusinessLogic.csproj|solutionrelative:dicksnake.businesslogic\\helpers\\fieldhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|c:\\anton\\consoleapp1\\dicksnake.models\\snakedirection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|solutionrelative:dicksnake.models\\snakedirection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCE69B81-EC6C-47E5-9DBD-5FE6FC56B37F}|DickSnake.BusinessLogic\\DickSnake.BusinessLogic.csproj|c:\\anton\\consoleapp1\\dicksnake.businesslogic\\helpers\\keyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCE69B81-EC6C-47E5-9DBD-5FE6FC56B37F}|DickSnake.BusinessLogic\\DickSnake.BusinessLogic.csproj|solutionrelative:dicksnake.businesslogic\\helpers\\keyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCE69B81-EC6C-47E5-9DBD-5FE6FC56B37F}|DickSnake.BusinessLogic\\DickSnake.BusinessLogic.csproj|c:\\anton\\consoleapp1\\dicksnake.businesslogic\\helpers\\ikeyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCE69B81-EC6C-47E5-9DBD-5FE6FC56B37F}|DickSnake.BusinessLogic\\DickSnake.BusinessLogic.csproj|solutionrelative:dicksnake.businesslogic\\helpers\\ikeyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCE69B81-EC6C-47E5-9DBD-5FE6FC56B37F}|DickSnake.BusinessLogic\\DickSnake.BusinessLogic.csproj|c:\\anton\\consoleapp1\\dicksnake.businesslogic\\inifiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCE69B81-EC6C-47E5-9DBD-5FE6FC56B37F}|DickSnake.BusinessLogic\\DickSnake.BusinessLogic.csproj|solutionrelative:dicksnake.businesslogic\\inifiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|c:\\anton\\consoleapp1\\dicksnake.program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17B43024-47F6-E542-74E0-AF1EC7D75492}|DickSnake.Program\\DickSnake.Program.csproj|solutionrelative:dicksnake.program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|c:\\anton\\consoleapp1\\dicksnake.models\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|solutionrelative:dicksnake.models\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|c:\\anton\\consoleapp1\\dicksnake.models\\foodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|solutionrelative:dicksnake.models\\foodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|c:\\anton\\consoleapp1\\dicksnake.models\\foodtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|solutionrelative:dicksnake.models\\foodtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|c:\\anton\\consoleapp1\\dicksnake.models\\tailsnakepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|solutionrelative:dicksnake.models\\tailsnakepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|c:\\anton\\consoleapp1\\dicksnake.models\\snakedirection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1299B7-77E6-4503-9CD0-6C25EFC42B31}|DickSnake.Models\\DickSnake.Models.csproj|solutionrelative:dicksnake.models\\snakedirection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCE69B81-EC6C-47E5-9DBD-5FE6FC56B37F}|DickSnake.BusinessLogic\\DickSnake.BusinessLogic.csproj|c:\\anton\\consoleapp1\\dicksnake.businesslogic\\helpers\\ikeyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCE69B81-EC6C-47E5-9DBD-5FE6FC56B37F}|DickSnake.BusinessLogic\\DickSnake.BusinessLogic.csproj|solutionrelative:dicksnake.businesslogic\\helpers\\ikeyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -64,7 +72,7 @@
               "RelativeDocumentMoniker": "DickSnake.Program\\Food.cs",
               "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Food.cs",
               "RelativeToolTip": "DickSnake.Program\\Food.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAswFcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-02T15:13:30.711Z",
               "IsPinned": true,
@@ -72,59 +80,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Field.cs",
-              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Field.cs",
-              "RelativeDocumentMoniker": "DickSnake.Program\\Field.cs",
-              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Field.cs",
-              "RelativeToolTip": "DickSnake.Program\\Field.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T08:22:09.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IKeyHelper.cs",
-              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.BusinessLogic\\Helpers\\IKeyHelper.cs",
-              "RelativeDocumentMoniker": "DickSnake.BusinessLogic\\Helpers\\IKeyHelper.cs",
-              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.BusinessLogic\\Helpers\\IKeyHelper.cs",
-              "RelativeToolTip": "DickSnake.BusinessLogic\\Helpers\\IKeyHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T08:15:16.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TailSnakePos.cs",
-              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\TailSnakePos.cs",
-              "RelativeDocumentMoniker": "DickSnake.Models\\TailSnakePos.cs",
-              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\TailSnakePos.cs",
-              "RelativeToolTip": "DickSnake.Models\\TailSnakePos.cs",
+              "Title": "Field.cs",
+              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\Field.cs",
+              "RelativeDocumentMoniker": "DickSnake.Models\\Field.cs",
+              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\Field.cs",
+              "RelativeToolTip": "DickSnake.Models\\Field.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T08:01:52.667Z",
+              "WhenOpened": "2026-04-27T17:42:31.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Program.cs",
+              "RelativeDocumentMoniker": "DickSnake.Program\\Program.cs",
+              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Program.cs",
+              "RelativeToolTip": "DickSnake.Program\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:42:10.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FieldManager.cs",
+              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\FieldManager.cs",
+              "RelativeDocumentMoniker": "DickSnake.Program\\FieldManager.cs",
+              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\FieldManager.cs",
+              "RelativeToolTip": "DickSnake.Program\\FieldManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:37:12.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KeyHelper.cs",
+              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.BusinessLogic\\Helpers\\KeyHelper.cs",
+              "RelativeDocumentMoniker": "DickSnake.BusinessLogic\\Helpers\\KeyHelper.cs",
+              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.BusinessLogic\\Helpers\\KeyHelper.cs",
+              "RelativeToolTip": "DickSnake.BusinessLogic\\Helpers\\KeyHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:14:36.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IniFiles.cs",
+              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.BusinessLogic\\IniFiles.cs",
+              "RelativeDocumentMoniker": "DickSnake.BusinessLogic\\IniFiles.cs",
+              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.BusinessLogic\\IniFiles.cs",
+              "RelativeToolTip": "DickSnake.BusinessLogic\\IniFiles.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:08:27.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Snake.cs",
               "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\Snake.cs",
               "RelativeDocumentMoniker": "DickSnake.Models\\Snake.cs",
               "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\Snake.cs",
               "RelativeToolTip": "DickSnake.Models\\Snake.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T07:35:11.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "SnakeDirection.cs",
               "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\SnakeDirection.cs",
               "RelativeDocumentMoniker": "DickSnake.Models\\SnakeDirection.cs",
@@ -132,8 +166,7 @@
               "RelativeToolTip": "DickSnake.Models\\SnakeDirection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T07:32:48.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-05T07:32:48.088Z"
             },
             {
               "$type": "Document",
@@ -143,7 +176,7 @@
               "RelativeDocumentMoniker": "DickSnake.BusinessLogic\\Helpers\\FieldHelper.cs",
               "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.BusinessLogic\\Helpers\\FieldHelper.cs",
               "RelativeToolTip": "DickSnake.BusinessLogic\\Helpers\\FieldHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T07:32:26.16Z",
               "EditorCaption": ""
@@ -156,34 +189,9 @@
               "RelativeDocumentMoniker": "DickSnake.Program\\SnakeManager.cs",
               "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\SnakeManager.cs",
               "RelativeToolTip": "DickSnake.Program\\SnakeManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAoAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAvwG0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-02T16:16:25.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FoodType.cs",
-              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\FoodType.cs",
-              "RelativeDocumentMoniker": "DickSnake.Models\\FoodType.cs",
-              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\FoodType.cs",
-              "RelativeToolTip": "DickSnake.Models\\FoodType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T16:07:57.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Program.cs",
-              "RelativeDocumentMoniker": "DickSnake.Program\\Program.cs",
-              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Program\\Program.cs",
-              "RelativeToolTip": "DickSnake.Program\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T15:07:47.873Z",
               "EditorCaption": ""
             },
             {
@@ -196,7 +204,32 @@
               "RelativeToolTip": "DickSnake.Models\\FoodModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T15:06:25.028Z"
+              "WhenOpened": "2026-04-02T15:06:25.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TailSnakePos.cs",
+              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\TailSnakePos.cs",
+              "RelativeDocumentMoniker": "DickSnake.Models\\TailSnakePos.cs",
+              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.Models\\TailSnakePos.cs",
+              "RelativeToolTip": "DickSnake.Models\\TailSnakePos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T08:01:52.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IKeyHelper.cs",
+              "DocumentMoniker": "C:\\anton\\ConsoleApp1\\DickSnake.BusinessLogic\\Helpers\\IKeyHelper.cs",
+              "RelativeDocumentMoniker": "DickSnake.BusinessLogic\\Helpers\\IKeyHelper.cs",
+              "ToolTip": "C:\\anton\\ConsoleApp1\\DickSnake.BusinessLogic\\Helpers\\IKeyHelper.cs",
+              "RelativeToolTip": "DickSnake.BusinessLogic\\Helpers\\IKeyHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T08:15:16.137Z"
             }
           ]
         }

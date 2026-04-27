@@ -1,19 +1,16 @@
-﻿
-
-using DickSnake.BusinessLogic.Helpers;
+﻿using DickSnake.BusinessLogic.Helpers;
 using DickSnake.Models;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        FieldHelper.checkSize(Field.gridWidth, Field.gridHeight);
-        Field field = new Field();
+        FieldManager fieldManager = new FieldManager();
+        Food food = new Food(fieldManager.field);
         var keyHelper = new KeyHelper();
-        SnakeManager snake = new SnakeManager(keyHelper);
+        SnakeManager snake = new SnakeManager(fieldManager.field, food, keyHelper);
         keyHelper.StartListening();
-        Food food = new Food();
-        
+
         while (true) ;
     }
 }

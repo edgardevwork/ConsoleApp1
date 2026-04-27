@@ -1,8 +1,9 @@
 ﻿using DickSnake.BusinessLogic.IniFiles;
+using static System.Net.WebRequestMethods;
 
 public class FieldHelper
 {
-    public static void checkSize(int gridWidth, int gridHeight)
+    public static (int width, int height) checkSize()
     {
         IniFile iniFile = new IniFile("edgar.ini");
         if (iniFile != null)
@@ -12,17 +13,17 @@ public class FieldHelper
 
             if (string.IsNullOrEmpty(polyW) && string.IsNullOrEmpty(polyH)) // Проверка на пустоту строки
             {
-                //throw new ArgumentException("Poly: w or h = null!");
+                throw new ArgumentException("Poly: w or h = null!");
             }
             else
             {
-                gridWidth = int.Parse(polyW);
-                gridHeight = int.Parse(polyH);
-                Console.SetWindowSize(gridWidth, gridHeight);
+                Console.SetWindowSize(int.Parse(polyW), int.Parse(polyH));
+                return (int.Parse(polyW), int.Parse(polyH));
             }
         }
         else
         {
+            throw new ArgumentException("Poly: w or h = null!");
             //Console.WriteLine("Error w*h!");
         }
     }

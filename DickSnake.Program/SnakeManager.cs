@@ -7,12 +7,18 @@ public class SnakeManager
     private IKeyHelper _keyHelper;
 
     System.Timers.Timer timer;
+    Field field = null;
+    Food food = null;
     SnakeDirection way = SnakeDirection.Right;
     int speed = 1000; //  минимальная скорость это 100 
     int eatFood = 0; // кол во фруктов сьединных
 
-    public SnakeManager(IKeyHelper keyHelper)
+    public SnakeManager(Field field, Food food, IKeyHelper keyHelper)
     {
+        this.field = field;
+
+        this.food = food;
+
         _keyHelper = keyHelper;
 
         _keyHelper.KeyPressed += key =>
@@ -48,38 +54,38 @@ public class SnakeManager
     }
     public void updateSnake(object? sender, ElapsedEventArgs e)
     {
-        bool hasEatenFood = Field.foods.Any(food =>
-            food.getX() == Field.snake.facePosX && food.getY() == Field.snake.facePosY);
+        bool hasEatenFood = field.foods.Any(food =>
+            food.getX() == field.snake.facePosX && food.getY() == field.snake.facePosY);
 
-        int oldFaceX = Field.snake.facePosX;
-        int oldFaceY = Field.snake.facePosY;
+        int oldFaceX = field.snake.facePosX;
+        int oldFaceY = field.snake.facePosY;
 
         switch (way)
         {
             case SnakeDirection.Up:
-                Field.snake.facePosY = (Field.snake.facePosY - 1 + Field.gridHeight) % Field.gridHeight;
+                field.snake.facePosY = (field.snake.facePosY - 1 + field.gridHeight) % field.gridHeight;
                 break;
             case SnakeDirection.Down:
-                Field.snake.facePosY = (Field.snake.facePosY + 1) % Field.gridHeight;
+                field.snake.facePosY = (field.snake.facePosY + 1) % field.gridHeight;
                 break;
             case SnakeDirection.Left:
-                Field.snake.facePosX = (Field.snake.facePosX - 1 + Field.gridWidth) % Field.gridWidth;
+                field.snake.facePosX = (field.snake.facePosX - 1 + field.gridWidth) % field.gridWidth;
                 break;
             case SnakeDirection.Right:
-                Field.snake.facePosX = (Field.snake.facePosX + 1) % Field.gridWidth;
+                field.snake.facePosX = (field.snake.facePosX + 1) % field.gridWidth;
                 break;
         }
 
-        Field.snake.tailSnakePos.Insert(0, new TailSnakePos(oldFaceX, oldFaceY));
+        field.snake.tailSnakePos.Insert(0, new TailSnakePos(oldFaceX, oldFaceY));
 
-        bool isGameOver = Field.snake.tailSnakePos.Take(Field.snake.tailSnakePos.Count - 1).Any(seg =>
-            seg.positionX == Field.snake.facePosX && seg.positionY == Field.snake.facePosY);
+        bool isGameOver = field.snake.tailSnakePos.Take(field.snake.tailSnakePos.Count - 1).Any(seg =>
+            seg.positionX == field.snake.facePosX && seg.positionY == field.snake.facePosY);
 
         if (hasEatenFood)
         {
-            var eatenFood = Field.foods.First(f => f.getX() == Field.snake.facePosX && f.getY() == Field.snake.facePosY);
+            var eatenFood = field.foods.First(f => f.getX() == field.snake.facePosX && f.getY() == field.snake.facePosY);
 
-            Field.foods.Remove(eatenFood);
+            field.foods.Remove(eatenFood);
             Console.SetCursorPosition(eatenFood.getX(), eatenFood.getY());
             Console.Write(" ");
             eatFood++;
@@ -93,10 +99,10 @@ public class SnakeManager
                 }
             }
         } else {
-            var lastSegment = Field.snake.tailSnakePos.Last();
+            var lastSegment = field.snake.tailSnakePos.Last();
             Console.SetCursorPosition(lastSegment.positionX, lastSegment.positionY);
             Console.Write(" ");
-            Field.snake.tailSnakePos.RemoveAt(Field.snake.tailSnakePos.Count - 1);
+            field.snake.tailSnakePos.RemoveAt(field.snake.tailSnakePos.Count - 1);
         }
         if (isGameOver)
         {
@@ -106,7 +112,7 @@ public class SnakeManager
             Console.WriteLine("ИГРА ОКОНЧЕНА!");
             return;
         }
-        Field.snake.Draw();
-        Food.spawnFood();
+        field.snake.Draw();
+        food.spawnFood();
     }
 }

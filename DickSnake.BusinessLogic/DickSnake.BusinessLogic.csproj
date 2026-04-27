@@ -10,4 +10,8 @@
     <ProjectReference Include="..\DickSnake.Models\DickSnake.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
 </Project>
