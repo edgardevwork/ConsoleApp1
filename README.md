@@ -16,7 +16,7 @@
 ║                                                                          W   ║
 ║                                         W              A         B           ║
 ║                        @########### B                         A            W ║
-║       W           B              ##                                          ║
+║       W           B               #                                          ║
 ║                         A                                    W               ║
 ║             A             A     B W                     W           B    W   ║
 ║        B B                        A                   B   B  B               ║
