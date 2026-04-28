@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DickSnake.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6618a6269b043c3477c401be24ed44991d65e1b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49973790f408bb1240b91a1841ebe5fcf889d94a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DickSnake.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DickSnake.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

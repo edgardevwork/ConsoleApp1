@@ -14,8 +14,8 @@ public class Snake
     public Snake(int bufX, int bufY)
     {
         tailSnakePos = new List<TailSnakePos>();
-        facePosX = 3;
-        facePosY = 3;
+        facePosX = 2;
+        facePosY = 1;
         tailSnakePos.Add(new TailSnakePos(facePosX-1, facePosY));
         Draw(); // Отрисовка змеи
     }

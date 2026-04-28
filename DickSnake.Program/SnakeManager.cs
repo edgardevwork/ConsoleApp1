@@ -63,56 +63,86 @@ public class SnakeManager
         switch (way)
         {
             case SnakeDirection.Up:
-                field.snake.facePosY = (field.snake.facePosY - 1 + field.gridHeight) % field.gridHeight;
+                switch ((field.snake.facePosY - 1 + field.gridHeight) % field.gridHeight)
+                {
+                    case 0:
+                        field.snake.facePosY = field.gridHeight - 2;
+                        break;
+                    default:
+                        field.snake.facePosY = (field.snake.facePosY - 1 + field.gridHeight) % field.gridHeight;
+                        break;
+                }
                 break;
             case SnakeDirection.Down:
-                field.snake.facePosY = (field.snake.facePosY + 1) % field.gridHeight;
+                int result = (field.snake.facePosY + 1) % field.gridHeight;
+                if (result == field.gridHeight-1) {
+                    field.snake.facePosY = 1;
+                } else
+                {
+                    field.snake.facePosY = (field.snake.facePosY + 1) % field.gridHeight;
+                }
                 break;
             case SnakeDirection.Left:
-                field.snake.facePosX = (field.snake.facePosX - 1 + field.gridWidth) % field.gridWidth;
+                switch ((field.snake.facePosX - 1 + field.gridWidth) % field.gridWidth)
+                {
+                    case 0:
+                        field.snake.facePosX = field.gridWidth - 2;
+                        break;
+                    default:
+                        field.snake.facePosX = (field.snake.facePosX - 1 + field.gridWidth) % field.gridWidth;
+                        break;
+                }
                 break;
             case SnakeDirection.Right:
-                field.snake.facePosX = (field.snake.facePosX + 1) % field.gridWidth;
-                break;
-        }
-
-        field.snake.tailSnakePos.Insert(0, new TailSnakePos(oldFaceX, oldFaceY));
-
-        bool isGameOver = field.snake.tailSnakePos.Take(field.snake.tailSnakePos.Count - 1).Any(seg =>
-            seg.positionX == field.snake.facePosX && seg.positionY == field.snake.facePosY);
-
-        if (hasEatenFood)
-        {
-            var eatenFood = field.foods.First(f => f.getX() == field.snake.facePosX && f.getY() == field.snake.facePosY);
-
-            field.foods.Remove(eatenFood);
-            Console.SetCursorPosition(eatenFood.getX(), eatenFood.getY());
-            Console.Write(" ");
-            eatFood++;
-            if (46 > eatFood)
-            {
-                if ((eatFood % 5) == 0)
+                int result2 = (field.snake.facePosX + 1) % field.gridWidth;
+                if (result2 == field.gridWidth - 1)
                 {
-                    speed = speed - 100;
-                    // =-
-                    timer.Interval = speed;
+                    field.snake.facePosX = 1;
                 }
+                else
+                {
+                    field.snake.facePosX = (field.snake.facePosX + 1) % field.gridWidth;
+                }
+                break;
             }
-        } else {
-            var lastSegment = field.snake.tailSnakePos.Last();
-            Console.SetCursorPosition(lastSegment.positionX, lastSegment.positionY);
-            Console.Write(" ");
-            field.snake.tailSnakePos.RemoveAt(field.snake.tailSnakePos.Count - 1);
+
+            field.snake.tailSnakePos.Insert(0, new TailSnakePos(oldFaceX, oldFaceY));
+
+            bool isGameOver = field.snake.tailSnakePos.Take(field.snake.tailSnakePos.Count - 1).Any(seg =>
+                seg.positionX == field.snake.facePosX && seg.positionY == field.snake.facePosY);
+
+            if (hasEatenFood)
+            {
+                var eatenFood = field.foods.First(f => f.getX() == field.snake.facePosX && f.getY() == field.snake.facePosY);
+
+                field.foods.Remove(eatenFood);
+                Console.SetCursorPosition(eatenFood.getX(), eatenFood.getY());
+                Console.Write(" ");
+                eatFood++;
+                if (46 > eatFood)
+                {
+                    if ((eatFood % 5) == 0)
+                    {
+                        speed -= 100;
+                        // =-
+                        timer.Interval = speed;
+                    }
+                }
+            } else {
+                var lastSegment = field.snake.tailSnakePos.Last();
+                Console.SetCursorPosition(lastSegment.positionX, lastSegment.positionY);
+                Console.Write(" ");
+                field.snake.tailSnakePos.RemoveAt(field.snake.tailSnakePos.Count - 1);
+            }
+            if (isGameOver)
+            {
+                timer.Stop();
+                //food.timer.Stop();
+                Console.Clear();
+                Console.WriteLine("ИГРА ОКОНЧЕНА!");
+                return;
+            }
+            field.snake.Draw();
+            food.spawnFood();
         }
-        if (isGameOver)
-        {
-            timer.Stop();
-            Food.timer.Stop();
-            Console.Clear();
-            Console.WriteLine("ИГРА ОКОНЧЕНА!");
-            return;
-        }
-        field.snake.Draw();
-        food.spawnFood();
-    }
 }

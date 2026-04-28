@@ -16,36 +16,61 @@ public class FieldManager
 
     public void add()
     {
-        field.snake = new Snake(field.gridWidth, field.gridHeight);
         StringBuilder stringBuilder = new StringBuilder();
 
         for (int row = 0; row < field.gridHeight; row++)
         {
             for (int col = 0; col < field.gridWidth; col++)
             {
-                if(col != 0)
+                if (row == 0)
                 {
-                    if(row == 0 && col != field.gridWidth - 1)
+                    if (col == 0)
                     {
-                        stringBuilder.Append("═");
-                    } else if(row == 0 && col == field.gridWidth - 1) {
+                        stringBuilder.Append("╔");
+                    }
+                    else if (col == field.gridWidth - 1)
+                    {
                         stringBuilder.Append("╗");
                     }
-                    continue;
+                    else
+                    {
+                        stringBuilder.Append("═");
+                    }
                 }
-                if(col == 0 && row != 0 && row != field.gridHeight-1)
+                else if (row == field.gridHeight - 1)
                 {
-                    stringBuilder.Append("║");
-                } else if(col == 0 && row == 0){
-                    stringBuilder.Append("╔");
-                } else if (col == 0 && row < field.gridHeight){
-                    stringBuilder.Append("╚");
+                    if (col == 0)
+                    {
+                        stringBuilder.Append("╚");
+                    }
+                    else if (col == field.gridWidth - 1)
+                    {
+                        stringBuilder.Append("╝");
+                    }
+                    else
+                    {
+                        stringBuilder.Append("═");
+                    }
                 }
-                stringBuilder.Append(" ");
+                else
+                {
+                    if (col == 0)
+                    {
+                        stringBuilder.Append("║");
+                    }
+                    else if (col == field.gridWidth - 1)
+                    {
+                        stringBuilder.Append("║");
+                    }
+                    else
+                    {
+                        stringBuilder.Append(" ");
+                    }
+                }
             }
-
             Console.WriteLine(stringBuilder.ToString());
             stringBuilder.Clear();
         }
+        field.snake = new Snake(field.gridWidth, field.gridHeight);
     }
 }

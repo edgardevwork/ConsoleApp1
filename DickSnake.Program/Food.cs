@@ -4,9 +4,7 @@ using System.Timers;
 public class Food
 {
     static Random rand;
-    int speed = 1000;
     Field field = null;
-    public static System.Timers.Timer timer;
     public Food(Field field)
     {
         this.field = field;
@@ -24,8 +22,8 @@ public class Food
 
         do
         {
-            posX = rand.Next(field.gridWidth);
-            posY = rand.Next(field.gridHeight);
+            posX = rand.Next(1, field.gridWidth-1);
+            posY = rand.Next(1, field.gridHeight-1);
 
             isPositionValid = true;
 
