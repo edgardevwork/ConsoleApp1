@@ -1,5 +1,4 @@
 ﻿using DickSnake.BusinessLogic.IniFiles;
-using static System.Net.WebRequestMethods;
 
 public class FieldHelper
 {

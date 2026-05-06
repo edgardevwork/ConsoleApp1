@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DickSnake.BusinessLogic\DickSnake.BusinessLogic.csproj" />
+    <ProjectReference Include="..\DickSnake.Console\DickSnake.ConsoleUi.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -14,7 +14,18 @@
           "DickSnake.BusinessLogic.dll": {}
         }
       },
+      "DickSnake.ConsoleUi/1.0.0": {
+        "runtime": {
+          "DickSnake.ConsoleUi.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "DickSnake.Models/1.0.0": {
+        "dependencies": {
+          "DickSnake.ConsoleUi": "1.0.0"
+        },
         "runtime": {
           "DickSnake.Models.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -26,6 +37,11 @@
   },
   "libraries": {
     "DickSnake.BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DickSnake.ConsoleUi/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

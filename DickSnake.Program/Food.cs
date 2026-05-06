@@ -1,5 +1,5 @@
-﻿using DickSnake.Models;
-using System.Timers;
+﻿using DickSnake.ConsoleUi;
+using DickSnake.Models;
 
 public class Food
 {
@@ -62,30 +62,6 @@ public class Food
 
         field.foods.Add(new FoodModel(posX, posY, (FoodType)foodType));
 
-        Console.SetCursorPosition(posX, posY);
-        switch (foodType)
-        {
-            case (int)FoodType.Apple:
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.Write("A");
-                    break;
-                }
-            case (int)FoodType.Banana:
-                {
-
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.Write("B");
-                    break;
-                }
-            case (int)FoodType.Watermelon:
-                {
-                    Console.ForegroundColor = ConsoleColor.Magenta;
-                    Console.Write("W");
-                    break;
-                }
-        }
-
-        Console.ForegroundColor = ConsoleColor.White;
+        ConsoleManager.FruitPrint(foodType, posX, posY);
     }
 }

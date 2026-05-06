@@ -10,3 +10,7 @@ C:\anton\ConsoleApp1\DickSnake.Models\obj\Release\net10.0\refint\DickSnake.Model
 C:\anton\ConsoleApp1\DickSnake.Models\obj\Release\net10.0\DickSnake.Models.pdb
 C:\anton\ConsoleApp1\DickSnake.Models\obj\Release\net10.0\ref\DickSnake.Models.dll
 C:\anton\ConsoleApp1\DickSnake.Models\obj\Release\net10.0\DickSnake.Models.sourcelink.json
+C:\anton\ConsoleApp1\DickSnake.Models\bin\Release\net10.0\DickSnake.ConsoleUi.dll
+C:\anton\ConsoleApp1\DickSnake.Models\bin\Release\net10.0\DickSnake.ConsoleUi.pdb
+C:\anton\ConsoleApp1\DickSnake.Models\obj\Release\net10.0\DickSnake.Models.csproj.AssemblyReference.cache
+C:\anton\ConsoleApp1\DickSnake.Models\obj\Release\net10.0\DickSnak.567ADB81.Up2Date

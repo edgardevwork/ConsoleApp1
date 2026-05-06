@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Timers;
 using static System.Net.WebRequestMethods;
+using DickSnake.ConsoleUi;
 
 namespace DickSnake.Models;
 public class Snake
@@ -11,7 +12,7 @@ public class Snake
     public int facePosX;
     public int facePosY;
 
-    public Snake(int bufX, int bufY)
+    public Snake()
     {
         tailSnakePos = new List<TailSnakePos>();
         facePosX = 2;
@@ -22,18 +23,11 @@ public class Snake
 
     public void Draw()
     {
-        Console.SetCursorPosition(facePosX, facePosY);
-
-        Console.ForegroundColor = ConsoleColor.Cyan;
-        Console.Write("@"); // Голова
+        ConsoleManager.SnakePrint(true, facePosX, facePosY);
 
         foreach (var segment in tailSnakePos)
         {
-            Console.SetCursorPosition(segment.positionX, segment.positionY);
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write("#"); // Хвост
+            ConsoleManager.SnakePrint(false, segment.positionX, segment.positionY);
         }
-
-        Console.ForegroundColor = ConsoleColor.White;
     }
 }

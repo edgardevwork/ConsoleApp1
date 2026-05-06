@@ -1,6 +1,5 @@
-﻿
+﻿using DickSnake.ConsoleUi;
 using DickSnake.Models;
-using System.Text;
 
 public class FieldManager
 {
@@ -16,7 +15,6 @@ public class FieldManager
 
     public void add()
     {
-        StringBuilder stringBuilder = new StringBuilder();
 
         for (int row = 0; row < field.gridHeight; row++)
         {
@@ -26,51 +24,49 @@ public class FieldManager
                 {
                     if (col == 0)
                     {
-                        stringBuilder.Append("╔");
+                        ConsoleManager.FieldPrint(0, col, row);
                     }
                     else if (col == field.gridWidth - 1)
                     {
-                        stringBuilder.Append("╗");
+                        ConsoleManager.FieldPrint(3, col, row);
                     }
                     else
                     {
-                        stringBuilder.Append("═");
+                        ConsoleManager.FieldPrint(5, col, row);
                     }
                 }
                 else if (row == field.gridHeight - 1)
                 {
                     if (col == 0)
                     {
-                        stringBuilder.Append("╚");
+                        ConsoleManager.FieldPrint(2, col, row);
                     }
                     else if (col == field.gridWidth - 1)
                     {
-                        stringBuilder.Append("╝");
+                        ConsoleManager.FieldPrint(4, col, row);
                     }
                     else
                     {
-                        stringBuilder.Append("═");
+                        ConsoleManager.FieldPrint(5, col, row);
                     }
                 }
                 else
                 {
                     if (col == 0)
                     {
-                        stringBuilder.Append("║");
+                        ConsoleManager.FieldPrint(1, col, row);
                     }
                     else if (col == field.gridWidth - 1)
                     {
-                        stringBuilder.Append("║");
+                        ConsoleManager.FieldPrint(1, col, row);
                     }
                     else
                     {
-                        stringBuilder.Append(" ");
+                        ConsoleManager.FreePrint(col, row);
                     }
                 }
             }
-            Console.WriteLine(stringBuilder.ToString());
-            stringBuilder.Clear();
         }
-        field.snake = new Snake(field.gridWidth, field.gridHeight);
+        field.snake = new Snake();
     }
 }

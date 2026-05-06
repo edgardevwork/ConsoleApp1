@@ -1,0 +1,12 @@
+C:\anton\ConsoleApp1\DickSnake.Console\bin\Release\net10.0\DickSnake.ConsoleUi.deps.json
+C:\anton\ConsoleApp1\DickSnake.Console\bin\Release\net10.0\DickSnake.ConsoleUi.dll
+C:\anton\ConsoleApp1\DickSnake.Console\bin\Release\net10.0\DickSnake.ConsoleUi.pdb
+C:\anton\ConsoleApp1\DickSnake.Console\obj\Release\net10.0\DickSnake.ConsoleUi.GeneratedMSBuildEditorConfig.editorconfig
+C:\anton\ConsoleApp1\DickSnake.Console\obj\Release\net10.0\DickSnake.ConsoleUi.AssemblyInfoInputs.cache
+C:\anton\ConsoleApp1\DickSnake.Console\obj\Release\net10.0\DickSnake.ConsoleUi.AssemblyInfo.cs
+C:\anton\ConsoleApp1\DickSnake.Console\obj\Release\net10.0\DickSnake.ConsoleUi.csproj.CoreCompileInputs.cache
+C:\anton\ConsoleApp1\DickSnake.Console\obj\Release\net10.0\DickSnake.ConsoleUi.sourcelink.json
+C:\anton\ConsoleApp1\DickSnake.Console\obj\Release\net10.0\DickSnake.ConsoleUi.dll
+C:\anton\ConsoleApp1\DickSnake.Console\obj\Release\net10.0\refint\DickSnake.ConsoleUi.dll
+C:\anton\ConsoleApp1\DickSnake.Console\obj\Release\net10.0\DickSnake.ConsoleUi.pdb
+C:\anton\ConsoleApp1\DickSnake.Console\obj\Release\net10.0\ref\DickSnake.ConsoleUi.dll
